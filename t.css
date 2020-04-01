@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.my-shape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+}
+
+.my-shape path:nth-child(1) {
+    stroke-dasharray: 292px;
+    stroke-dashoffset: 292px;
+    animation: line-anim1 2s ease forwards;
+}
+
+.my-shape path:nth-child(2) {
+    stroke-dasharray: 109px;
+    stroke-dashoffset: 109px;
+    animation: line-anim2 2s ease forwards 0.2s;
+}
+
+.my-shape path:nth-child(3) {
+    stroke-dasharray: 94px;
+    stroke-dashoffset: 94px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+.my-shape path:nth-child(4) {
+    stroke-dasharray: 98px;
+    stroke-dashoffset: 98px;
+    animation: line-anim4 2s ease forwards 0.4s;
+}
+
+.my-shape path:nth-child(5) {
+    stroke-dasharray: 47px;
+    stroke-dashoffset: 47px;
+    animation: line-anim 2s ease forwards 0.5s;
+}
+
+.my-shape path:nth-child(6) {
+    stroke-dasharray: 11px;
+    stroke-dashoffset: 11px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+.my-shape path:nth-child(7) {
+    stroke-dasharray: 54px;
+    stroke-dashoffset: 54px;
+    animation: line-anim 2s ease forwards 0.7s;
+}
+
+.my-shape path:nth-child(8) {
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    animation: line-anim 2s ease forwards 0.8s;
+}
+
+.my-shape path:nth-child(9) {
+    stroke-dasharray: 28px;
+    stroke-dashoffset: 28px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+.my-shape path:nth-child(10) {
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 12px;
+    animation: line-anim 2s ease forwards 1.0s;
+}
+
+.my-shape path:nth-child(11) {
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 12px;
+    animation: line-anim 2s ease forwards 1.1s;
+}
+
+.my-shape path:nth-child(12) {
+    stroke-dasharray: 11px;
+    stroke-dashoffset: 11px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+.my-shape path:nth-child(13) {
+    stroke-dasharray: 18px;
+    stroke-dashoffset: 18px;
+    animation: line-anim 2s ease forwards 1.3s;
+}
+
+.my-shape path:nth-child(14) {
+    stroke-dasharray: 8px;
+    stroke-dashoffset: 8px;
+    animation: line-anim 2s ease forwards 1.4s;
+}
+
+.my-shape path:nth-child(15) {
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+.my-shape path:nth-child(16) {
+    stroke-dasharray: 9px;
+    stroke-dashoffset: 9px;
+    animation: line-anim 2s ease forwards 1.6s;
+}
+
+.my-shape path:nth-child(17) {
+    stroke-dasharray: 1px;
+    stroke-dashoffset: 1px;
+    animation: line-anim 2s ease forwards 1.7s;
+}
+
+.my-shape path:nth-child(18) {
+    stroke-dasharray: 7px;
+    stroke-dashoffset: 7px;
+    animation: line-anim 2s ease forwards;
+    animation: fill 4.9s ease forwards;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes line-anim1 {
+    to {
+        stroke-dashoffset: 584;
+    }
+}
+
+@keyframes line-anim2 {
+    to {
+        stroke-dashoffset: 218;
+    }
+}
+
+@keyframes line-anim3 {
+    to {
+        stroke-dashoffset: 188;
+    }
+}
+
+@keyframes line-anim4 {
+    to {
+        stroke-dashoffset: 196;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: black;
+    }
+}
