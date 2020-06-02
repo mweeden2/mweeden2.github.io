@@ -1,0 +1,7 @@
+const mouse = document.querySelectorAll(".my-shape path");
+
+console.log(mouse);
+
+for (let i = 0; i<mouse.length; i++) {
+    console.log(`Path ${i} is ${mouse[i].getTotalLength()}`);
+}
