@@ -3,6 +3,23 @@
     padding: 0
 }
 
+h3 {
+    margin-top: 1em;
+}
+
 body {
     margin-left: 1em;
+    margin-top: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: 2em;
+}
+
+a {
+    color: #596F73;
 }
