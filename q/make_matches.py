@@ -57,6 +57,7 @@ def main():
     random.shuffle(matches_with_uids)
     for i in matches_with_uids:
         print("<h2 hidden=true id=%s>%s's</h2>" % (i[1], i[0][1].capitalize()))
+    print("put these into the html file ^^^^")
 
 
 
