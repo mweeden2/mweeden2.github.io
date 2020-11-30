@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Secret Santa</title>
+    <meta name="description" content="A Secret Santa name distributer">
+    <meta name="author" content="matt">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- <script src="scripts.js"></script> -->
+    <script>
+        var url_string = window.location.href; //window.location.href
+        var url = new URL(url_string);
+        var c = url.searchParams.get("q");
+        document.getElementById(c).hidden = false;
+    </script>
+
+    <p>You are</p>
+    <p>John's</p>
+    <p>secret santa.</p>
+
+</body>
+
+</html>
