@@ -9,12 +9,22 @@
     <meta name="description" content="A Secret Santa name distributer">
     <meta name="author" content="matt">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <!-- <script src="scripts.js"></script> -->
+
+    <h3>You are</h3>
+    <h2 hidden=true id=yep>Victoria's</h2>
+    <h2 hidden=true id=nope>John's</h2>
+    <h2 hidden=true id=12345>Ian's</h2>
+    <h2 hidden=true id=s>Stephanie's</h2>
+    <h2 hidden=true id=k>Katherine's</h2>
+    <h2 hidden=true id=m>Matt's</h2>
+    <h3>secret santa.</h3>
+
     <script>
         var url_string = window.location.href; //window.location.href
         var url = new URL(url_string);
@@ -22,10 +32,6 @@
         console.log(c);
         document.getElementById(c).hidden = false;
     </script>
-
-    <h3>You are</h3>
-    <h2>John's</h2>
-    <h3>secret santa.</h3>
 
 </body>
 
