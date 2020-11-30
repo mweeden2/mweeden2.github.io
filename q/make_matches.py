@@ -56,7 +56,7 @@ def main():
     print("uuids to embed...")
     random.shuffle(matches_with_uids)
     for i in matches_with_uids:
-        print(i[0][1], "%s" % i[1])
+        print("<h2 hidden=true id=%s>%s's</h2>" % (i[1], i[0][1].capitalize()))
 
 
 
