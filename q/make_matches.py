@@ -51,7 +51,7 @@ def main():
 
     print("uuids to share...")
     for i in matches_with_uids:
-        print(i[0][0], "https://mweeden2.github.io/q/q=%s" % i[1])
+        print(i[0][0], "https://mweeden2.github.io/q/?q=%s" % i[1])
 
     print("uuids to embed...")
     random.shuffle(matches_with_uids)
