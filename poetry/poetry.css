@@ -1,0 +1,15 @@
+p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: 40%;
+}
+
+.svg-path {
+    stroke-dasharray: 10;
+}

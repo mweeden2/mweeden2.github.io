@@ -1,0 +1,33 @@
+body {
+}
+
+h3 {
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-weight: 100;
+    color: #5e7074;
+}
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0em;
+    margin-left: 0em;
+    margin-top: 0em;
+}
+
+ul.dashed > li::before {
+    content: "-  ";
+}
+
+li {
+    margin-left: 1em;
+}
+
+a {
+    color: #596F73;
+}
