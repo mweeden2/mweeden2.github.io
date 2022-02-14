@@ -13,15 +13,20 @@ h4 {
     color: #5e7074;
 }
 
-ul.dashed {
+ul.job-details {
     list-style: none;
     padding-left: 0em;
     margin-left: 0em;
     margin-top: 0em;
 }
 
-ul.dashed > li::before {
+ul.job-details > li::before {
     content: "-  ";
+}
+
+.job-info {
+    font-weight: 100;
+    padding-left: 1em;
 }
 
 li {
