@@ -46,7 +46,7 @@ def main():
 
     for l in poem_text[2:]:
         if l == "":
-            body += '<br><br>\n'
+            body += '<br>\n'
         else:
             body += l + '<br>\n'
 

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #  Grab the poem's title
 # ---------------------------------------
 title=$(head -n 1 $1)
